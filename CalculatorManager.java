@@ -3,6 +3,9 @@ public class CalculatorManager{
 	{
 		Calculator c=new Calculator(20,30);
 		c.printAdd();
+		c.printSub();
+		c.printProduct();
+		c.printQuotient();
 	}
      
 }
