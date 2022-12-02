@@ -10,5 +10,25 @@ public class Calculator{
 	{
         System.out.println(num1+num2);
 	}
+	public void printSub()
+	{
+		System.out.println(num1-num2);
+	}
+	public  void printProduct()
+	{
+        System.out.println(num1+num2);
+	}
+	try{
+		public void printQuotient()
+	{
+		System.out.println(num1/num2);
+	}
+	}
+	catch(Exception ex)
+	{
+	System.out.println(ex);
+	}
+	
+	
      
 }
